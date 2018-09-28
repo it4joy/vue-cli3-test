@@ -1,30 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <b-form></b-form>
+    <b-container>
+      <b-row align-h="center">
+        <b-col cols="8">
+          <b-form></b-form>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
-import Form from './components/Form.vue'
+import RegForm from './components/RegForm.vue'
 
 export default {
   name: 'app',
   components: {
-    'b-form': Form
+    'b-form': RegForm
   }
 }
 </script>
-
-<style lang="scss">
-$color: red;
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

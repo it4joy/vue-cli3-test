@@ -1,4 +1,4 @@
-# worknector
+# vue-cli3-test
 
 ## Project setup
 ```

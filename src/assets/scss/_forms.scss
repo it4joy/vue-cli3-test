@@ -1,0 +1,6 @@
+// vertical alignment
+
+.custom-control-wrapper {
+  @include display-flex-mixin(flex, row, flex-start, center, nowrap);
+  height: 100%;
+}

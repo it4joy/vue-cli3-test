@@ -59,87 +59,97 @@
         <p>We care about your data. Therefore and according to EU rules, we need your consent below.</p>
       </div>
       <div class="agreement-part">
-        <h6 class="h6">Storage of personal data</h6>
+        <h5 class="h5">Storage of personal data</h5>
         <b-form-row>
           <b-col cols="3">
             <b-button variant="outline-secondary" v-b-modal="'userAcceptanceModal_1'">Read the document</b-button>
           </b-col>
           <b-col cols="9">
-            <b-form-checkbox id="userAcceptance_1"
-                             v-model="regForm.checked"
-                             name="accepted_1"
-                             value="accepted_1"
-                             unchecked-value="not_accepted">
-              I've read the above text and agree to it
-            </b-form-checkbox>
+            <div class="custom-control-wrapper">
+              <b-form-checkbox id="userAcceptance_1"
+                               v-model="regForm.checked"
+                               name="accepted_1"
+                               value="accepted_1"
+                               unchecked-value="not_accepted">
+                I've read the above text and agree to it
+              </b-form-checkbox>
+            </div>
           </b-col>
         </b-form-row>
       </div>
       <div class="agreement-part">
-        <h6 class="h6">Permission for transfer of the CV data</h6>
+        <h5 class="h5">Permission for transfer of the CV data</h5>
         <b-form-row>
           <b-col cols="3">
             <b-button variant="outline-secondary" v-b-modal="'userAcceptanceModal_1'">Read the document</b-button>
           </b-col>
           <b-col cols="9">
-            <b-form-checkbox id="userAcceptance_2"
-                             v-model="regForm.checked"
-                             name="accepted_2"
-                             value="accepted_2"
-                             unchecked-value="not_accepted">
-              I've read the above text and agree to it
-            </b-form-checkbox>
+            <div class="custom-control-wrapper">
+              <b-form-checkbox id="userAcceptance_2"
+                               v-model="regForm.checked"
+                               name="accepted_2"
+                               value="accepted_2"
+                               unchecked-value="not_accepted">
+                I've read the above text and agree to it
+              </b-form-checkbox>
+            </div>
           </b-col>
         </b-form-row>
       </div>
       <div class="agreement-part">
-        <h6 class="h6">Permission for taking contact with job offers or feedbacks</h6>
+        <h5 class="h5">Permission for taking contact with job offers or feedbacks</h5>
         <b-form-row>
           <b-col cols="3">
             <b-button variant="outline-secondary" v-b-modal="'userAcceptanceModal_1'">Read the document</b-button>
           </b-col>
           <b-col cols="9">
-            <b-form-checkbox id="userAcceptance_3"
-                             v-model="regForm.checked"
-                             name="accepted_3"
-                             value="accepted_3"
-                             unchecked-value="not_accepted">
-              I've read the above text and agree to it
-            </b-form-checkbox>
+            <div class="custom-control-wrapper">
+              <b-form-checkbox id="userAcceptance_3"
+                               v-model="regForm.checked"
+                               name="accepted_3"
+                               value="accepted_3"
+                               unchecked-value="not_accepted">
+                I've read the above text and agree to it
+              </b-form-checkbox>
+            </div>
           </b-col>
         </b-form-row>
       </div>
       <div class="agreement-part">
-        <h6 class="h6">Permission for transfer of your data to payment operator</h6>
+        <h5 class="h5">Permission for transfer of your data to payment operator</h5>
         <b-form-row>
           <b-col cols="3">
             <b-button variant="outline-secondary" v-b-modal="'userAcceptanceModal_1'">Read the document</b-button>
           </b-col>
           <b-col cols="9">
-            <b-form-checkbox id="userAcceptance_4"
-                             v-model="regForm.checked"
-                             name="accepted_4"
-                             value="accepted_4"
-                             unchecked-value="not_accepted">
-              I've read the above text and agree to it
-            </b-form-checkbox>
+            <div class="custom-control-wrapper">
+              <b-form-checkbox id="userAcceptance_4"
+                               v-model="regForm.checked"
+                               name="accepted_4"
+                               value="accepted_4"
+                               unchecked-value="not_accepted">
+                I've read the above text and agree to it
+              </b-form-checkbox>
+            </div>
           </b-col>
         </b-form-row>
       </div>
       <div class="agreement-part">
-        <h6 class="h6">Acceptance of service conditions and privacy policy</h6>
+        <h5 class="h5">Acceptance of service conditions and privacy policy</h5>
         <b-form-row>
           <b-col cols="3">
             <b-button variant="outline-secondary" v-b-modal="'userAcceptanceModal_1'">Read the document</b-button>
           </b-col>
           <b-col cols="9">
-            <b-form-checkbox id="userAcceptance_5"
-                             v-model="regForm.checked"
-                             name="accepted_5"
-                             value="accepted_5"
-                             unchecked-value="not_accepted">
-              I've read the above text and agree to it
-            </b-form-checkbox>
+            <div class="custom-control-wrapper">
+              <b-form-checkbox id="userAcceptance_5"
+                               v-model="regForm.checked"
+                               name="accepted_5"
+                               value="accepted_5"
+                               unchecked-value="not_accepted">
+                I've read the above text and agree to it
+              </b-form-checkbox>
+            </div>
           </b-col>
         </b-form-row>
       </div>
@@ -218,3 +228,9 @@
 </script>
 
 <!-- b-form-1.vue -->
+
+<style lang="scss">
+  .agreement-part {
+    padding: 1.5rem 0;
+  }
+</style>

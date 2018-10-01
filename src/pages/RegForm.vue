@@ -67,7 +67,8 @@
           <b-col cols="9">
             <b-form-checkbox id="userAcceptance_1"
                              v-model="regForm.checked"
-                             value="accepted"
+                             name="accepted_1"
+                             value="accepted_1"
                              unchecked-value="not_accepted">
               I've read the above text and agree to it
             </b-form-checkbox>
@@ -83,7 +84,8 @@
           <b-col cols="9">
             <b-form-checkbox id="userAcceptance_2"
                              v-model="regForm.checked"
-                             value="accepted"
+                             name="accepted_2"
+                             value="accepted_2"
                              unchecked-value="not_accepted">
               I've read the above text and agree to it
             </b-form-checkbox>
@@ -99,7 +101,8 @@
           <b-col cols="9">
             <b-form-checkbox id="userAcceptance_3"
                              v-model="regForm.checked"
-                             value="accepted"
+                             name="accepted_3"
+                             value="accepted_3"
                              unchecked-value="not_accepted">
               I've read the above text and agree to it
             </b-form-checkbox>
@@ -115,7 +118,8 @@
           <b-col cols="9">
             <b-form-checkbox id="userAcceptance_4"
                              v-model="regForm.checked"
-                             value="accepted"
+                             name="accepted_4"
+                             value="accepted_4"
                              unchecked-value="not_accepted">
               I've read the above text and agree to it
             </b-form-checkbox>
@@ -131,7 +135,8 @@
           <b-col cols="9">
             <b-form-checkbox id="userAcceptance_5"
                              v-model="regForm.checked"
-                             value="accepted"
+                             name="accepted_5"
+                             value="accepted_5"
                              unchecked-value="not_accepted">
               I've read the above text and agree to it
             </b-form-checkbox>
